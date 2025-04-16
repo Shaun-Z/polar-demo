@@ -90,7 +90,7 @@ for i in range(784):
 # Visualize full heatmap
 heatmap = attributions.reshape(28, 28)
 plt.figure(figsize=(5, 5))
-plt.imshow(heatmap, cmap='hot')
+plt.imshow(heatmap, cmap='grey')
 plt.colorbar()
 plt.title("Full IWG Heatmap")
 plt.tight_layout()
